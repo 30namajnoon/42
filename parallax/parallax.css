@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2vw;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container.image1 h1{
+    color: rgb(31, 31, 31);
+}
+.container.center {
+    height: 50vh;
+}
+.container.image1 {
+    background-image: url(https://wallpaperaccess.com/full/500523.jpg);
+
+}
+.container.image2 {
+    background-image: url(https://images.unsplash.com/photo-1460572894071-bde5697f7197?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc2lhbiUyMGNhdHxlbnwwfHwwfHw%3D&w=1000&q=80);
+}
